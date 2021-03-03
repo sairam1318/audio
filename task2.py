@@ -1,3 +1,3 @@
 from playsound import playsound
 givenNumber = input("Enter a number: ")
-[playsound(x + '.mp3') for number in givenNumber]
+[playsound(digit + '.mp3') for digit in givenNumber]
